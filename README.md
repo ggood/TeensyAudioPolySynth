@@ -7,6 +7,13 @@ Teensy Audio Board. See http://pjrc.com/.
 Connect the Teensy (with the Audio Board attached) to your computer
 with a USB cable.
 
+Add teensyduino support to your Arduino IDE. Instructions on doing
+that are here: https://www.pjrc.com/teensy/teensyduino.html
+
+Make sure the Tools->Board setting in your Arduino IDE is correct
+for the type of Teensy you have, and that Tools->USB Type is
+set to "MIDI". Load, compile, and upload this sketch.
+
 Connect a MIDI keyboard to your computer with a USB cable.
 
 Start up your digital audio workstation, e.g. Ableton Live, Cubase,
